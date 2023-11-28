@@ -20,6 +20,16 @@ public class BitwiseOperator {
 //		Logical Operator- &&  ||
 		
 		System.out.println(false || false);
+		
+		double db1 = 14.5d;
+		db1++;
+
+        System.out.println(db1);
+
+		
+
+
+		
 	}
 
 }
