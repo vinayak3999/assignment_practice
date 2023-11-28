@@ -2,8 +2,11 @@ package assignment_practice;
 
 public class MyFirstCode {
 	public static void main(String[] args) {
-		System.out.println("Hello This is my fisr code");
+	int ln = 1234_23;
+		System.out.println(ln);
+	
 	}
+	
 
 }
         
