@@ -71,8 +71,12 @@ public class UnaryOperato {
 //		System.out.println(i);
 //		System.out.println(j);
 		
-		int i1 = 20;
-		System.out.println(~i1);
+//		int i1 = 20;
+//		System.out.println(~i1);
+		int i = 10; 
+		int j = i++ + ++i; 
+		System.out.println(i); 
+		System.out.println(j);
 
 		
 
