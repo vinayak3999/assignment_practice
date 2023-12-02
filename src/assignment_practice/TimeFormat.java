@@ -24,11 +24,5 @@ public class TimeFormat {
 		
 		System.out.println("\n");
 		
-	
 	}
-		
-	
-		
-	
-
 }

@@ -15,11 +15,13 @@ public class BitwiseOperator {
 //		TRUE  | FALSE = TRUE
 //		FALSE | TRUE  = TRUE
 //		FALSE | FALSE = FALSE
-		System.out.println(true & false);
+		System.out.println(true & true);
+		System.out.println(true | false);
 		
 //		Logical Operator- &&  ||
 		
-		System.out.println(false || false);
+		System.out.println(true && true);
+		System.out.println(true || false);
 		
 		double db1 = 14.5d;
 		db1++;

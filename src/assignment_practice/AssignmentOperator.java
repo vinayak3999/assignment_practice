@@ -6,11 +6,16 @@ public class AssignmentOperator {
 //		i++; 
 		
 		int i = 10;
-		i = i+=3;
+		i+=3;
+		System.out.println(i);
 		i = i-3;
+		System.out.println(i);
 		i = i*3;
+		System.out.println(i);
 		i = (i/3);
+		System.out.println(i);
 		i = i%3;
+		
 		System.out.println(i);
 		
 	}
