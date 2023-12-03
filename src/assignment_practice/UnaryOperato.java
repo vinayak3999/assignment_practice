@@ -73,12 +73,16 @@ public class UnaryOperato {
 		
 //		int i1 = 20;
 //		System.out.println(~i1);
-		int i = 10; 
-		int j = i++ + ++i; 
-		System.out.println(i); 
-		System.out.println(j);
+//		int i = 10;
+//		int j = i++ + i++ + --i + ++i + ++i; 
+//		System.out.println(i); 
+//		System.out.println(j);
 
-		
+		int i = 15;
+		int j = 4;
+		int k= 7;
+		int sum = i%j*k;
+		System.out.println(sum);
 
 	
 	}
