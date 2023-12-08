@@ -7,7 +7,7 @@ public class Fibonacci {
 		//		int a = 0;
 		//		int b = 1;
 		System.out.println("Fibonacci series for first " + n + " numbers are: ");
-//		int i = 0;
+		//		int i = 0;
 
 		//		while(i <= n) {
 		//			System.out.println(a + ", ");
