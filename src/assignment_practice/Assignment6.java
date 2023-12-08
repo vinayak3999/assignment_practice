@@ -6,7 +6,7 @@ public class Assignment6 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Please enter the Month");
+		System.out.println("Please enter the Month number");
 		
 		int month = scan.nextInt();
 		int days = 0;
