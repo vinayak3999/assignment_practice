@@ -1,6 +1,10 @@
 package assignment_practice;
 
 public class ObjectPractice {
+	
+	public static void main(String[] args) {
+		
+	}
 
 }
 
@@ -27,6 +31,45 @@ class Human{
 
 	}
 	void toWalk(double distance) {
+		
+	}
+}
+
+class Laptop{
+	
+	String Brand;
+	String Model;
+	double ScreenSize;
+	
+	void toPlayVideo(String video) {
+		
+	}
+	void toConnectInternet(String Internet) {
+		
+	}
+}
+
+class SportMan{
+	
+	String name;
+	int age;
+	double height;
+	double weight;
+	String sport;
+	
+	void toPlay() {
+		
+	}
+	
+}
+
+class TestCase{
+	
+	int testCaseId;
+	String testCaseName;
+	String testCreatedBy;
+	
+	void executeTestCase() {
 		
 	}
 }
