@@ -15,6 +15,7 @@ class Vehicles{
 	String type;
 
 	void move(String destination) {
+		System.out.println(Brand + " - " + destination);
 
 	}
 
@@ -27,10 +28,18 @@ class Human{
 	String color;
 	int height;
 
-	void toTalk(String Content) {
+	void toSpeak(String Content) {
+		
+		System.out.println(name + " - " + Content);
 
 	}
 	void toWalk(double distance) {
+		
+	}
+	void happybirthday() {
+		
+		System.out.println(name + " - " + "! Happy Birthday");
+		age++;
 		
 	}
 }
