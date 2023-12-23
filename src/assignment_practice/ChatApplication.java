@@ -9,15 +9,20 @@ public class ChatApplication {
 		h1.age = 25;
 		h1.color= "Fair";
 		h1.height = 172;
+		h1.country = "India";
 		
 		Human h2 = new Human();
 		h2.name = "Shyam";
 		h2.age = 26;
 		h2.color= "Fair";
 		h2.height = 175;
+		h2.country = "America";
 		
 		System.out.println(h1.name);
 		System.out.println(h2.name);
+		System.out.println(h1.country);
+		System.out.println(h2.country);
+		System.out.println(Human.country);
 		
 		h1.toSpeak("Hello");
 		h2.toSpeak("I am fine");

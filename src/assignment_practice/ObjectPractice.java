@@ -27,6 +27,7 @@ class Human{
 	int age;
 	String color;
 	int height;
+	static String country;
 
 	void toSpeak(String Content) {
 		
